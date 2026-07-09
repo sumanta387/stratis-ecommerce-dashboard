@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Analytics Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="dashboard-container">
+        <aside class="sidebar">
+            <div class="sidebar-brand">
+                <div class="brand-logo"></div>
+                <h2>NexusVisual</h2>
+            </div>
+            <nav class="sidebar-menu">
+                <a href="#" class="menu-item active"><i class="fa-solid to fa-chart-pie"></i> Dashboard</a>
+                <a href="#" class="menu-item"><i class="fa-solid fa-folder"></i> Projects</a>
+                <a href="#" class="menu-item"><i class="fa-solid fa-wallet"></i> E-Commerce</a>
+                <a href="#" class="menu-item"><i class="fa-solid fa-sliders"></i> Analytics</a>
+                <a href="#" class="menu-item"><i class="fa-solid fa-envelope"></i> Messages <span class="badge">4</span></a>
+                <a href="#" class="menu-item"><i class="fa-solid fa-gear"></i> Settings</a>
+            </nav>
+            <div class="sidebar-card">
+                <img src="image/neon.jpg" alt=""  height="100%" width="100%" class="sidebar-card-img">
+                <p>Unlock elite features & deep metrics.</p>
+                <button class="btn-upgrade">Upgrade Pro</button>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <header class="main-header">
+                <div class="search-bar">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Search metrics, projects, reports...">
+                </div>
+                <div class="header-profile">
+                    <button class="icon-btn" id="notificationBtn">
+                        <i class="fa-solid fa-bell"></i>
+                        <span class="dot"></span>
+                    </button>
+                    <div class="profile-info">
+                        <img src="image/avtar2.jpg" alt="" height="100%" width="100%" class="avatar">
+                        <div class="profile-text">
+                            <span class="user-name">Alex Morgan</span>
+                            <span class="user-role">Creative Director</span>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <div class="dashboard-body">
+                <div class="welcome-banner">
+                    <div class="welcome-text">
+                        <h1>Welcome Back, Alex!</h1>
+                        <p>Your performance metrics are up by 12.5% this week. Keep crushing your targets!</p>
+                    </div>
+                    <button class="btn-primary" animations-button>Generate Report</button>
+                </div>
+
+                <section class="stats-grid">
+                    <div class="stat-card">
+                        <div class="card-header">
+                            <div class="icon-wrapper color-1"><i class="fa-solid fa-chart-line"></i></div>
+                            <span class="trend positive">+18.2%</span>
+                        </div>
+                        <div class="card-body">
+                            <h3>$48,250</h3>
+                            <p>Monthly Revenue Target</p>
+                        </div>
+                        <div class="progress-container">
+                            <div class="progress-bar-bg">
+                                <div class="progress-bar animated-bar color-gradient-1" data-progress="82%"></div>
+                            </div>
+                            <span class="progress-percent">82%</span>
+                        </div>
+                    </div>
+
+                    <div class="stat-card">
+                        <div class="card-header">
+                            <div class="icon-wrapper color-2"><i class="fa-solid fa-layer-group"></i></div>
+                            <span class="trend positive">+6.4%</span>
+                        </div>
+                        <div class="card-body">
+                            <h3>24 / 30</h3>
+                            <p>Active Projects Completed</p>
+                        </div>
+                        <div class="progress-container">
+                            <div class="progress-bar-bg">
+                                <div class="progress-bar animated-bar color-gradient-2" data-progress="75%"></div>
+                            </div>
+                            <span class="progress-percent">75%</span>
+                        </div>
+                    </div>
+
+                    <div class="stat-card">
+                        <div class="card-header">
+                            <div class="icon-wrapper color-3"><i class="fa-solid fa-bolt"></i></div>
+                            <span class="trend negative">-2.1%</span>
+                        </div>
+                        <div class="card-body">
+                            <h3>94.2%</h3>
+                            <p>Server Efficiency Rate</p>
+                        </div>
+                        <div class="progress-container">
+                            <div class="progress-bar-bg">
+                                <div class="progress-bar animated-bar color-gradient-3" data-progress="94%"></div>
+                            </div>
+                            <span class="progress-percent">94%</span>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="content-grid">
+                    <div class="data-panel project-panel">
+                        <div class="panel-header">
+                            <h2>Ongoing Trackers</h2>
+                            <button class="btn-secondary">View All</button>
+                        </div>
+                        <div class="tracker-list">
+                            <div class="tracker-item">
+                                <div class="tracker-info">
+                                    <h4>Amazon Storefront UI Redesign</h4>
+                                    <span class="tracker-category">Web Development</span>
+                                </div>
+                                <div class="progress-container-inline">
+                                    <div class="progress-bar-bg">
+                                        <div class="progress-bar animated-bar color-gradient-1" data-progress="90%"></div>
+                                    </div>
+                                    <span class="progress-percent">90%</span>
+                                </div>
+                            </div>
+                            <div class="tracker-item">
+                                <div class="tracker-info">
+                                    <h4>Retail Asset Brand Strategy</h4>
+                                    <span class="tracker-category">Graphic Design</span>
+                                </div>
+                                <div class="progress-container-inline">
+                                    <div class="progress-bar-bg">
+                                        <div class="progress-bar animated-bar color-gradient-2" data-progress="45%"></div>
+                                    </div>
+                                    <span class="progress-percent">45%</span>
+                                </div>
+                            </div>
+                            <div class="tracker-item">
+                                <div class="tracker-info">
+                                    <h4>AI Image Prompt Generator App</h4>
+                                    <span class="tracker-category">UI/UX Layout</span>
+                                </div>
+                                <div class="progress-container-inline">
+                                    <div class="progress-bar-bg">
+                                        <div class="progress-bar animated-bar color-gradient-3" data-progress="60%"></div>
+                                    </div>
+                                    <span class="progress-percent">60%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="data-panel activity-panel">
+                        <div class="panel-header">
+                            <h2>Team Operations</h2>
+                        </div>
+                        <div class="activity-list">
+                            <div class="activity-node">
+                                <div class="node-dot color-1"></div>
+                                <div class="node-content">
+                                    <p><strong>Emma Stone</strong> updated layout assets for the retail project.</p>
+                                    <span class="node-time">12 mins ago</span>
+                                </div>
+                            </div>
+                            <div class="activity-node">
+                                <div class="node-dot color-2"></div>
+                                <div class="node-content">
+                                    <p>System auto-optimized neon asset styling parameters.</p>
+                                    <span class="node-time">1 hour ago</span>
+                                </div>
+                            </div>
+                            <div class="activity-node">
+                                <div class="node-dot color-3"></div>
+                                <div class="node-content">
+                                    <p>Payout settled successfully for Amazon fulfillment fees.</p>
+                                    <span class="node-time">4 hours ago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
