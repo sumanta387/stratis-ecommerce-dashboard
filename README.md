@@ -33,6 +33,6 @@ Interactive Navigation:** Toggleable sidebar menu and a persistent search/notifi
 ## 💻 Getting Started
 
 To view the dashboard locally:
-1. Clone this repository: `git clone https://github.com/yourusername/your-repo-name.git`
+1. Clone this repository: https://codespaces.new/sumanta387/stratis-ecommerce-dashboard
 2. Open the project directory.
 3. Open `index.html` in your preferred web browser. No local server is required.
